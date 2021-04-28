@@ -1654,7 +1654,7 @@
       </cards>
       <simple-id uuid='{86364C7E-8A16-4ED0-8F7A-2B7EF58C0160}' />
     </window>
-    <window class='worksheet' maximized='true' name='Country'>
+    <window class='worksheet' name='Country'>
       <cards>
         <edge name='left'>
           <strip size='184'>
@@ -1701,7 +1701,7 @@
       </cards>
       <simple-id uuid='{109AF84E-6D57-43B4-8138-DB81432D21A7}' />
     </window>
-    <window class='worksheet' name='HasCrCard'>
+    <window class='worksheet' maximized='true' name='HasCrCard'>
       <cards>
         <edge name='left'>
           <strip size='184'>
