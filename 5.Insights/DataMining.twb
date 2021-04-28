@@ -20,7 +20,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='P12-Churn-Modelling' name='excel-direct.0quluqt0kd38d513ejiwe12gffpz'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/maria/OneDrive/Desktop/Work/DataScience/DataScienceProjects/20210427_ChurnModeling/3.UploadedData/20210427/P12-Churn-Modelling.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/maria/OneDrive/Desktop/Work/DataScience/DataScienceProjects/20210427_ChurnModeling/2.PreparedData/P12-Churn-Modelling.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0quluqt0kd38d513ejiwe12gffpz' name='Churn Modelling' table='[&apos;Churn Modelling$&apos;]' type='table'>
@@ -296,7 +296,7 @@
         <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
       </column>
       <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
-      <column caption='Balance (classe)' datatype='integer' name='[Balance (classe)]' role='dimension' type='ordinal'>
+      <column aggregation='None' caption='Balance (classe)' datatype='integer' name='[Balance (classe)]' role='dimension' type='ordinal'>
         <calculation class='bin' decimals='4' formula='[Balance]' peg='0' size='10000' />
       </column>
       <column datatype='real' name='[Balance]' role='measure' type='quantitative' />
@@ -308,7 +308,7 @@
       </column>
       <column caption='Credit Score' datatype='integer' name='[CreditScore]' role='measure' type='quantitative' />
       <column caption='Customer Id' datatype='integer' name='[CustomerId]' role='dimension' type='ordinal' />
-      <column caption='Estimated Salary (classe)' datatype='integer' name='[Estimated Salary (classe)]' role='dimension' type='ordinal'>
+      <column aggregation='None' caption='Estimated Salary (classe)' datatype='integer' name='[Estimated Salary (classe)]' role='dimension' type='ordinal'>
         <calculation class='bin' decimals='4' formula='[EstimatedSalary]' peg='0' size='10000' />
       </column>
       <column caption='Estimated Salary' datatype='real' name='[EstimatedSalary]' role='measure' type='quantitative' />
@@ -575,7 +575,7 @@
             <datasource caption='Churn Modelling (P12-Churn-Modelling)' name='federated.18h14tv02c3ely1bw8jtb1fueklr' />
           </datasources>
           <datasource-dependencies datasource='federated.18h14tv02c3ely1bw8jtb1fueklr'>
-            <column caption='Balance (classe)' datatype='integer' name='[Balance (classe)]' role='dimension' type='ordinal'>
+            <column aggregation='None' caption='Balance (classe)' datatype='integer' name='[Balance (classe)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='4' formula='[Balance]' peg='0' size='10000' />
             </column>
             <column datatype='real' name='[Balance]' role='measure' type='quantitative' />
@@ -876,7 +876,7 @@
             <column caption='Number Of Records' datatype='integer' name='[Calculation_456552448806424576]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='1' />
             </column>
-            <column caption='Estimated Salary (classe)' datatype='integer' name='[Estimated Salary (classe)]' role='dimension' type='ordinal'>
+            <column aggregation='None' caption='Estimated Salary (classe)' datatype='integer' name='[Estimated Salary (classe)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='4' formula='[EstimatedSalary]' peg='0' size='10000' />
             </column>
             <column caption='Estimated Salary' datatype='real' name='[EstimatedSalary]' role='measure' type='quantitative' />
@@ -1937,7 +1937,7 @@
       </viewpoint>
       <simple-id uuid='{5B175F8C-E09B-445E-8C39-31949DA07639}' />
     </window>
-    <window class='worksheet' maximized='true' name='AgeDistribution'>
+    <window class='worksheet' name='AgeDistribution'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2048,7 +2048,7 @@
       </viewpoint>
       <simple-id uuid='{FF910782-0600-4AFE-B6BB-8FF91AA72561}' />
     </window>
-    <window class='worksheet' name='EstimatedSalary' tab-color='#17927d'>
+    <window class='worksheet' maximized='true' name='EstimatedSalary' tab-color='#17927d'>
       <cards>
         <edge name='left'>
           <strip size='184'>
