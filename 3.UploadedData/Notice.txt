@@ -1,0 +1,1 @@
+This contains folder named by dates, that include data that needs to be uploaded.

@@ -1,0 +1,1 @@
+This folder stores the original data after the modification made to it (cleaning for example).
